@@ -19,15 +19,35 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
-
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            
+            let root = UITabBarController()
+            let a = UINavigationController(rootViewController: UIHostingController(rootView: ContentView()))
+            let a1 = UINavigationController(rootViewController: UIHostingController(rootView: MainView(se: GetMain())))
+            let a2 = UINavigationController(rootViewController: UIHostingController(rootView: MainView(se: GetMain())))
+            
+            getTabController(vc: a, title: "q")
+            getTabController(vc: a1, title: "q")
+            getTabController(vc: a2, title: "q")
+
+            root.addChild(a)
+            root.addChild(a1)
+            root.addChild(a2)
+
+            
+            
+            window.rootViewController = root
             self.window = window
             window.makeKeyAndVisible()
         }
+    }
+    func getTabController(vc:UINavigationController,title:String){
+        vc.title = "sdf"
+        vc.tabBarItem.title = title
+        vc.navigationBar.isHidden = true
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

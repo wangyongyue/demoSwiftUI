@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		189FCCB5257771530066A739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCB4257771530066A739 /* AppDelegate.swift */; };
 		189FCCB7257771540066A739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCB6257771540066A739 /* SceneDelegate.swift */; };
-		189FCCB9257771540066A739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCB8257771540066A739 /* ContentView.swift */; };
 		189FCCBB257771790066A739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189FCCBA257771790066A739 /* Assets.xcassets */; };
 		189FCCBE257771790066A739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189FCCBD257771790066A739 /* Preview Assets.xcassets */; };
 		189FCCC1257771790066A739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189FCCBF257771790066A739 /* LaunchScreen.storyboard */; };
 		189FCCCC2577717A0066A739 /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCCB2577717A0066A739 /* demoTests.swift */; };
 		189FCCD72577717A0066A739 /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCD62577717A0066A739 /* demoUITests.swift */; };
+		189FCCEC2577724B0066A739 /* GetDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCE82577724A0066A739 /* GetDetails.swift */; };
+		189FCCED2577724B0066A739 /* GetMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCE92577724A0066A739 /* GetMain.swift */; };
+		189FCCEE2577724B0066A739 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCEB2577724A0066A739 /* MainView.swift */; };
+		189FCCFB2577725B0066A739 /* lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCF42577725A0066A739 /* lists.swift */; };
+		189FCCFC2577725B0066A739 /* navs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCF62577725A0066A739 /* navs.swift */; };
+		189FCCFD2577725B0066A739 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCF72577725A0066A739 /* Component.swift */; };
+		189FCCFF2577725B0066A739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCF92577725B0066A739 /* ContentView.swift */; };
+		189FCD002577725B0066A739 /* base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FCCFA2577725B0066A739 /* base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 		189FCCB1257771530066A739 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189FCCB4257771530066A739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189FCCB6257771540066A739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		189FCCB8257771540066A739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189FCCBA257771790066A739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189FCCBD257771790066A739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		189FCCC0257771790066A739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		189FCCD22577717A0066A739 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189FCCD62577717A0066A739 /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		189FCCD82577717A0066A739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189FCCE82577724A0066A739 /* GetDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDetails.swift; sourceTree = "<group>"; };
+		189FCCE92577724A0066A739 /* GetMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMain.swift; sourceTree = "<group>"; };
+		189FCCEB2577724A0066A739 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		189FCCF42577725A0066A739 /* lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lists.swift; sourceTree = "<group>"; };
+		189FCCF62577725A0066A739 /* navs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navs.swift; sourceTree = "<group>"; };
+		189FCCF72577725A0066A739 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		189FCCF92577725B0066A739 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../demo-1/demo/ContentView.swift"; sourceTree = "<group>"; };
+		189FCCFA2577725B0066A739 /* base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +115,11 @@
 			children = (
 				189FCCB4257771530066A739 /* AppDelegate.swift */,
 				189FCCB6257771540066A739 /* SceneDelegate.swift */,
-				189FCCB8257771540066A739 /* ContentView.swift */,
+				189FCCF92577725B0066A739 /* ContentView.swift */,
+				189FCCFA2577725B0066A739 /* base.swift */,
+				189FCCE72577724A0066A739 /* service */,
+				189FCCEA2577724A0066A739 /* view */,
+				189FCCF22577725A0066A739 /* component */,
 				189FCCBA257771790066A739 /* Assets.xcassets */,
 				189FCCBF257771790066A739 /* LaunchScreen.storyboard */,
 				189FCCC2257771790066A739 /* Info.plist */,
@@ -134,6 +152,49 @@
 				189FCCD82577717A0066A739 /* Info.plist */,
 			);
 			path = demoUITests;
+			sourceTree = "<group>";
+		};
+		189FCCE72577724A0066A739 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				189FCCE92577724A0066A739 /* GetMain.swift */,
+				189FCCE82577724A0066A739 /* GetDetails.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		189FCCEA2577724A0066A739 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				189FCCEB2577724A0066A739 /* MainView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		189FCCF22577725A0066A739 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				189FCCF32577725A0066A739 /* lists */,
+				189FCCF52577725A0066A739 /* navs */,
+				189FCCF72577725A0066A739 /* Component.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		189FCCF32577725A0066A739 /* lists */ = {
+			isa = PBXGroup;
+			children = (
+				189FCCF42577725A0066A739 /* lists.swift */,
+			);
+			path = lists;
+			sourceTree = "<group>";
+		};
+		189FCCF52577725A0066A739 /* navs */ = {
+			isa = PBXGroup;
+			children = (
+				189FCCF62577725A0066A739 /* navs.swift */,
+			);
+			path = navs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +328,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				189FCCB5257771530066A739 /* AppDelegate.swift in Sources */,
+				189FCCFF2577725B0066A739 /* ContentView.swift in Sources */,
+				189FCCFD2577725B0066A739 /* Component.swift in Sources */,
+				189FCCEE2577724B0066A739 /* MainView.swift in Sources */,
+				189FCCED2577724B0066A739 /* GetMain.swift in Sources */,
+				189FCCEC2577724B0066A739 /* GetDetails.swift in Sources */,
 				189FCCB7257771540066A739 /* SceneDelegate.swift in Sources */,
-				189FCCB9257771540066A739 /* ContentView.swift in Sources */,
+				189FCD002577725B0066A739 /* base.swift in Sources */,
+				189FCCFC2577725B0066A739 /* navs.swift in Sources */,
+				189FCCFB2577725B0066A739 /* lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
